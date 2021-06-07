@@ -1,0 +1,65 @@
+[
+  {
+    "Id": 1,
+    "Category": "Programming Languages",
+    "SkillsList": [
+      "C#",
+      "HTML",
+      "CSS3",
+      "ASP",
+      "JavaScript",
+      "VB",
+      "SQL",
+      "JSON",
+      "XML"
+    ]
+  },
+  {
+    "Id": 2,
+    "category": "Tools",
+    "skillsList": [
+      "Visual Studio",
+      "SSMS",
+      "Fiddler",
+      "SOAPUI",
+      "MS Office",
+      "Jira",
+      "Jenkins"
+    ]
+  },
+  {
+    "Id": 3,
+    "category": "Source Control",
+    "skillsList": [
+      "GIT",
+      "SVN"
+    ]
+  },
+  {
+    "Id": 4,
+    "category": "Database Management",
+    "skillsList": [
+      "SQL Server",
+      "MS Access"
+    ]
+  },
+  {
+    "Id": 5,
+    "category": "Frameworks",
+    "skillsList": [
+      ".NET",
+      "Unity",
+      "WCF"
+    ]
+  },
+  {
+    "Id": 6,
+    "category": "Operating Systems",
+    "skillsList": [
+      "Windows",
+      "Linux",
+      "DOS"
+    ]
+  }
+
+]

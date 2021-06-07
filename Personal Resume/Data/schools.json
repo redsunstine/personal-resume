@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 2,
+    "Name": "WSU Vancouver",
+    "Logo": "WSU-logo.png",
+    "Major": "Computer Science",
+    "Degree": "Bachelor of Arts with a minor in Managent Information Systems",
+    "StartDate": "Aug 2004",
+    "EndDate": "Jun 2006",
+    "Location": "Vancouver, WA"
+  },
+  {
+    "Id": 1,
+    "Name": "Clark College",
+    "Logo": "ClarkCollege-logo.png",
+    "Major": "Software Development",
+    "Degree": "Associate in Applied Science, Associate in Arts, Associate in Science",
+    "StartDate": "Sept 2000",
+    "EndDate": "Jun 2004",
+    "Location": "Vancouver, WA"
+  }
+]

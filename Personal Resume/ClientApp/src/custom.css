@@ -1,0 +1,58 @@
+@media only screen and (min-width: 768px) {
+    .school-logo {
+        width: 150px;
+        float: right;
+    }
+}
+
+@media (max-width: 767px) {
+    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+    body {
+        padding-top: 50px;
+    }
+
+    .center-mobile-text {
+        text-align: center;
+    }
+
+    .smaller-width {
+        width: 50%;
+    }
+}
+
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    .center-mobile {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .smaller-width {
+        width: 50%;
+    }
+
+    center-mobile-text {
+        text-align: center;
+    }
+}
+
+.image-center {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+
+.card {
+    transition: box-shadow .3s;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+    .card:hover {
+        box-shadow: 0 0 15px rgba(33,33,33,.2);
+    }

@@ -1,0 +1,111 @@
+[
+  {
+    "Id": 1,
+    "CompanyName": "Amazon",
+    "Logo": "Amazon-logo.png",
+    "JobTitle": "Seller",
+    "StartDate": "October 2020",
+    "EndDate": "Current",
+    "Location": "Vancouver, WA",
+    "Vision": "Biggest online store",
+    "JobDuties": [
+      "Source items to sale in the marketplace",
+      "Provide superb customer service",
+      "Post new items",
+      "Pull, weigh, and ship items sold in a cost effective manner",
+      "Product research",
+      "Advertise store front",
+      "Organize item storage and inventory"
+    ],
+    "Accomplishments": [
+      "100+ items sold within the first few months of opening"
+    ]
+  },
+  {
+    "Id": 2,
+    "CompanyName": "Ebay",
+    "Logo": "Ebay-logo.png",
+    "JobTitle": "Seller",
+    "StartDate": "May 2016",
+    "EndDate": "Current",
+    "Location": "Vancouver, WA",
+    "Vision": "Biggest online Flea Market for buyers and sellers",
+    "JobDuties": [
+      "Source items to sale in the marketplace",
+      "Provide superb customer service",
+      "Photograph and post new items",
+      "Pull, weigh, and ship items sold in a cost effective manner",
+      "Product research",
+      "Advertise store front",
+      "Organize item storage and inventory",
+      "Manage promotions and sales"
+    ],
+    "Accomplishments": [
+      "1,000+ items sold",
+      "100 percent feedback rating at 400+ customer ratings",
+      "Top Rated Seller"
+    ]
+  },
+  {
+    "Id": 3,
+    "CompanyName": "Office Ally",
+    "Logo": "OfficeAlly-logo.png",
+    "JobTitle": "Web Developer",
+    "StartDate": "Aug 2009",
+    "EndDate": "May 2020",
+    "Location": "Vancouver, WA",
+    "Vision": "One of the top clearinghouses for medical claims",
+    "JobDuties": [
+      "Develop Applications and Services in C#, Sql Server, ASP.Net, Javascript, WebAPI, and MS Services",
+      "Provide customer support and maintenance of business solutions",
+      "Design and implement Windows business solutions on company servers",
+      "Certify our CAQH Web Services with certification providers",
+      "Maintain our software in SVN and Github repositories",
+      "Provide updates in daily SCRUM meetings",
+      "Document software specs and meetings in Jira and Confluence",
+      "Configure applications in Jenkins for CI/CD",
+      "Configure Windows servers to host our web applications and tools",
+      "Develop SQL scripts to manage sensitive data and create reports",
+      "Deploy finished projects to production servers and configure them to go live in IIS",
+      "Database design and implementation",
+      "Train others on application frameworks"
+    ],
+    "Accomplishments": [
+      "Build and maintain our home grown online payment application in ASP.NET",
+      "Build and maintain EDI in-house web and windows services and integrate with 3rd party apps",
+      "Bonuses for a job well down",
+      "Certified our EDI Web Application with 3rd party certification vendors multiple times",
+      "10+ years employment, with a couple of years perfect attendance",
+      "Personally Worked with development teams from Chase, Blue Shield, Zirmed, Kaiser, Optum and others to integrate our services with their enterprise solutions"
+    ]
+  },
+  {
+    "Id": 4,
+    "CompanyName": "On Demand Software",
+    "Logo": "OnDemand-logo.png",
+    "JobTitle": "Web Developer",
+    "StartDate": "Sep 2004",
+    "EndDate": "Jan 2008",
+    "Location": "Vancouver, WA",
+    "Vision": "Develop and host web applications for 3rd party businesses around the world",
+    "JobDuties": [
+      "Develop applications in ASP, SQL Server, VB, Javascript, COM and MS Access",
+      "Provide customer support and maintenance on finished projects",
+      "Assist with the design and implementation of company web sites",
+      "Port data from MS Access to SQL Server",
+      "Create tickets and maintain the company ticketing system",
+      "Work with the owner to design and implement 3rd party web sites",
+      "Database design and implementation",
+      "Create reports in ActveReports",
+      "Create and schedule SQL DTS packages"
+    ],
+    "Accomplishments": [
+      "Created a tool for outputting a full functioning ASP,SQL Server website based on Html,XML templates",
+      "Bonuses and gifts from company and 3rd party businesses for a job well done",
+      "Develop and maintain an administrative web site for Cascade Centers",
+      "Update the search engine and web site for a major music store ImportCds",
+      "Develop small web applications for Intel",
+      "Wrote and certified code for integrating with UPS shipping API"
+    ]
+  }
+]
