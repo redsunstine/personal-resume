@@ -3,6 +3,7 @@ import {
     Row, Col
 } from 'reactstrap';
 import Job from './subcomponents/Job';
+import './Jobs.css';
 
 export class Jobs extends Component {
     displayName = Jobs.name
@@ -39,13 +40,17 @@ export class Jobs extends Component {
         else {
             return (
                 <div>
+                    <div className="jobs-section">
+                        <h1 className="text-center">Tech Related Job Experience</h1>
+                        <hr></hr>
                     <Row>
                         {this.state.jobs.map(job =>
                             <Col md={6} key={job.id}>
                                 <Job job={job} />
                             </Col>
                         )}
-                    </Row>
+                        </Row>
+                        </div>
                 </div>
             );
         }

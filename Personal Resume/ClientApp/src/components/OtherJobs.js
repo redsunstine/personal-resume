@@ -3,9 +3,7 @@ import {
     Row, Col
 } from 'reactstrap';
 import Job from './subcomponents/Job';
-import { NavLink } from 'reactstrap';
-import { Link } from 'react-router-dom';
-import './NavMenu.css';
+import './Jobs.css';
 
 export class OtherJobs extends Component {
     displayName = OtherJobs.name
@@ -42,16 +40,17 @@ export class OtherJobs extends Component {
         else {
             return (
                 <div>
-                    <Row>
-                        <NavLink tag={Link} className="text-dark" to="/jobs"><i class="fas fa-user-tie icons"></i>Other Jobs</NavLink>
-                    </Row>
+                    <div className="jobs-section">
+                        <h1 className="text-center">Other Experience</h1>
+                        <hr></hr>
                     <Row>
                         {this.state.jobs.map(job =>
                             <Col md={6} key={job.id}>
                                 <Job job={job} />
                             </Col>
                         )}
-                    </Row>
+                        </Row>
+                        </div>
                 </div>
             );
         }
