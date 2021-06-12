@@ -5,8 +5,8 @@ import {
 import Job from './subcomponents/Job';
 import './Jobs.css';
 
-export class Jobs extends Component {
-    displayName = Jobs.name
+export class OtherJobs extends Component {
+    displayName = OtherJobs.name
 
     //Constructor method
     //We update the state object with the properties from our List of Jobs. This will be an empty array for now.
@@ -24,7 +24,7 @@ export class Jobs extends Component {
     //Calls the JobsController endpoint /api/jobs when the component is mounted in the DOM.
     //isLoading is set to false since the data is loaded.
     componentDidMount() {
-        fetch('api/jobs')
+        fetch('api/jobsother')
             .then(response => response.json())
             .then(data => {
                 this.setState({ jobs: data, isLoading: false })
@@ -41,7 +41,7 @@ export class Jobs extends Component {
             return (
                 <div>
                     <div className="jobs-section">
-                        <h1 className="text-center">Tech Related Job Experience</h1>
+                        <h1 className="text-center">Other Experience</h1>
                         <hr></hr>
                     <Row>
                         {this.state.jobs.map(job =>

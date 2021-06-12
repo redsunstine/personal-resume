@@ -9,14 +9,23 @@ using Newtonsoft.Json;
 
 namespace Personal_Resume.Controllers
 {
-    [Route("api/jobs")]
+    [Route("api")]
     [ApiController]
     public class JobsController : ControllerBase
     {
+        [Route("jobs")]
         public IEnumerable<Job> GetJobs()
         {
             string jsonText = System.IO.File.ReadAllText("./Data/jobs.json");
             return JsonConvert.DeserializeObject<IEnumerable<Job>>(jsonText);
         }
+
+        [Route("jobsother")]
+        public IEnumerable<Job> GetOther()
+        {
+            string jsonText = System.IO.File.ReadAllText("./Data/jobsother.json");
+            return JsonConvert.DeserializeObject<IEnumerable<Job>>(jsonText);
+        }
+
     }
 }

@@ -5,6 +5,7 @@ import {
     Row, Col, Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle, Button
 } from 'reactstrap';
+import './About.css';
 
 //export class component to use in other components
 export class About extends Component {
@@ -45,6 +46,7 @@ export class About extends Component {
     render() {
         return (
             <div className="basic-info">
+                <div className="about-section">
                 <Row>
                     <Col md={2}>
                         <img style={{ height: "100px" }} src={logo} />
@@ -76,7 +78,8 @@ export class About extends Component {
                     <Col md={7}>
                         <p className="textStyle">{this.state.description}</p>
                     </Col>
-                </Row>
+                    </Row>
+                    </div>
             </div>
         )
     }

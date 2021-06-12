@@ -1,0 +1,49 @@
+[
+  {
+    "Id": 1,
+    "CompanyName": "Amazon",
+    "Logo": "Amazon-logo.png",
+    "JobTitle": "Seller",
+    "StartDate": "October 2020",
+    "EndDate": "Current",
+    "Location": "Vancouver, WA",
+    "Vision": "Biggest online store",
+    "JobDuties": [
+      "Source items to sale in the marketplace",
+      "Provide superb customer service",
+      "Post new items",
+      "Pull, weigh, and ship items sold in a cost effective manner",
+      "Product research",
+      "Advertise store front",
+      "Organize item storage and inventory"
+    ],
+    "Accomplishments": [
+      "100+ items sold within the first few months of opening"
+    ]
+  },
+  {
+    "Id": 2,
+    "CompanyName": "Ebay",
+    "Logo": "Ebay-logo.png",
+    "JobTitle": "Seller",
+    "StartDate": "May 2016",
+    "EndDate": "Current",
+    "Location": "Vancouver, WA",
+    "Vision": "Biggest online Flea Market for buyers and sellers",
+    "JobDuties": [
+      "Source items to sale in the marketplace",
+      "Provide superb customer service",
+      "Photograph and post new items",
+      "Pull, weigh, and ship items sold in a cost effective manner",
+      "Product research",
+      "Advertise store front",
+      "Organize item storage and inventory",
+      "Manage promotions and sales"
+    ],
+    "Accomplishments": [
+      "1,000+ items sold",
+      "100 percent feedback rating at 400+ customer ratings",
+      "Top Rated Seller since 2017"
+    ]
+  }
+]
