@@ -1,7 +1,7 @@
-﻿import React, { Component } from 'react';
+﻿import React from 'react';
 import {
     Row, Col, Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button
+    CardSubtitle
 } from 'reactstrap';
 import './Job.css';
 

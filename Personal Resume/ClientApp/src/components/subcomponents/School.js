@@ -1,8 +1,8 @@
-﻿import React, { Component } from 'react';
+﻿import React from 'react';
 import './School.css';
 import {
     Row, Col, Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button
+    CardSubtitle
 } from 'reactstrap';
 
 function School(props) {

@@ -9,6 +9,22 @@
     "HasGithubLink": true,
     "GithubUrl": "gkoutr/PersonalResume",
     "HasDownloadLink": false,
-    "DownloadUrl": ""
+    "DownloadUrl": "",
+    "HasButtonScript": false,
+    "ButtonScript": ""
+  },
+  {
+    "Id": 2,
+    "Title": "Flys & Nekos",
+    "Image": "test-project-logo.jpg",
+    "Description": "Fun script",
+    "HasWebLink": false,
+    "WebUrl": "",
+    "HasGithubLink": true,
+    "GithubUrl": "gkoutr/PersonalResume",
+    "HasDownloadLink": false,
+    "DownloadUrl": "",
+    "HasButtonScript": true,
+    "ButtonScript": "SiteUtils.Options.Zoo.toggle()"
   }
 ]
