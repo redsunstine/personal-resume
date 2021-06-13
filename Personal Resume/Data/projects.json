@@ -7,7 +7,7 @@
     "HasWebLink": true,
     "WebUrl": "https://personal-resume.azurewebsites.net/",
     "HasGithubLink": true,
-    "GithubUrl": "gkoutr/PersonalResume",
+    "GithubUrl": "redsunstine/personal-resume",
     "HasDownloadLink": false,
     "DownloadUrl": "",
     "HasButtonScript": false,
@@ -21,10 +21,10 @@
     "HasWebLink": false,
     "WebUrl": "",
     "HasGithubLink": true,
-    "GithubUrl": "gkoutr/PersonalResume",
+    "GithubUrl": "redsunstine/Scripts",
     "HasDownloadLink": false,
     "DownloadUrl": "",
     "HasButtonScript": true,
-    "ButtonScript": "SiteUtils.Options.Zoo.toggle()"
+    "ButtonScript": "FlyNekos"
   }
 ]

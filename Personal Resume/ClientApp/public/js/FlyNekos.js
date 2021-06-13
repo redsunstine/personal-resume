@@ -910,4 +910,12 @@ var SiteUtils = {
     }
 }
 
-//SiteUtils.Options.Zoo.toggle();void(0);
+//Had to do the code this way because of how globals work
+FlyNekos = {
+    "run": go
+}
+
+function go() {
+    SiteUtils.Options.Zoo.toggle(); void (0);
+    //alert("hello");
+}

@@ -9,7 +9,8 @@ function Project(props) {
 
     function getProjectLink(project) {
         function handleClick() {
-            window.SiteUtils.Options.Zoo.toggle();
+            window[project.buttonScript].run();
+            //window.SiteUtils.Options.Zoo.toggle();
         }
 
         if (project.hasWebLink) {
