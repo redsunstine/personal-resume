@@ -14,7 +14,7 @@ function Project(props) {
         }
 
         if (project.hasWebLink) {
-            return <a className="project-links" href={project.webUrl} target="_blank">
+            return <a className="project-links" href={project.webUrl} title="try it out" target="_blank">
                 <i className="fas fa-external-link-alt fa-lg"></i>
             </a>
         }

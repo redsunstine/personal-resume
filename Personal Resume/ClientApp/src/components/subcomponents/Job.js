@@ -5,6 +5,13 @@ import {
 } from 'reactstrap';
 import './Job.css';
 
+function getCompLink(link) {
+    if (link != "") {
+        return <a className="job-links" href={link} title="goto site" alt="view site" target="_blank">
+            <i className="fas fa-external-link-alt fa-sm"></i>
+        </a>
+    }
+}
 //props are properties that come from a parent component, in this case Jobs. props will not change, so we can use them directly in our render function
 function Job(props) {
 
@@ -17,6 +24,7 @@ function Job(props) {
                     <Row>
                         <Col md={7} sm={12}>
                             <CardImg className="company-logo center-mobile smaller-width" top width="100%" src={require('../../images/jobs/' + job.logo)} />
+                            {getCompLink(job.link)}
                         </Col>
                         <Col md={5} sm={12}>
                             <div className="center-job-info">
@@ -37,8 +45,9 @@ function Job(props) {
                     </ol>
                     <h5 className="text-center">Accomplishments</h5>
                     <ol>
-                        {job.accomplishments.map(comps =>
-                            <li key={comps}>{comps}</li>
+                        {job.accomplishments.map((comps,index) =>
+                            <li key={comps}>{comps + " "}{getCompLink(job.accomplishmentLinks[index])}</li>
+                                
                         )}
                     </ol>
                 </CardBody>
