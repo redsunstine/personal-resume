@@ -41,7 +41,7 @@ export class OtherJobs extends Component {
             return (
                 <div>
                     <div className="jobs-section">
-                        <h1 className="text-center">Other Experience</h1>
+                        <h1 className="text-center">Other Recent Job Skills</h1>
                         <hr></hr>
                     <Row>
                         {this.state.jobs.map(job =>

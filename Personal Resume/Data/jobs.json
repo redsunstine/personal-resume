@@ -2,6 +2,7 @@
   {
     "Id": 3,
     "CompanyName": "Office Ally",
+    "Link": "https://www.officeally.com/",
     "Logo": "OfficeAlly-logo.png",
     "JobTitle": "Web Developer",
     "StartDate": "Aug 2009",
@@ -26,21 +27,30 @@
     "Accomplishments": [
       "Build and maintain our home grown online payment application in ASP.NET",
       "Build and maintain EDI in-house web and windows services and integrate with 3rd party apps",
-      "Bonuses for a job well down",
+      "Bonuses for a job well done",
       "Certified our EDI Web Application with 3rd party certification vendors multiple times",
       "10+ years employment, with a couple of years perfect attendance",
       "Personally Worked with development teams from Chase, Blue Shield, Zirmed, Kaiser, Optum and others to integrate our services with their enterprise solutions"
+    ],
+    "AccomplishmentLinks": [
+      "https://secure.paymentech.com/devcenter/home",
+      "",
+      "",
+      "https://www.caqh.org/core/core-certification-process",
+      "",
+      ""
     ]
   },
   {
     "Id": 4,
     "CompanyName": "On Demand Software",
+    "Link": "https://www.demand-soft.com/",
     "Logo": "OnDemand-logo.png",
     "JobTitle": "Web Developer",
     "StartDate": "Sep 2004",
     "EndDate": "Jan 2008",
     "Location": "Vancouver, WA",
-    "Vision": "Develop and host web applications for 3rd party businesses around the world",
+    "Vision": "Develop and host web applications for 3rd party businesses around the globe",
     "JobDuties": [
       "Develop applications in ASP, SQL Server, VB, Javascript, COM and MS Access",
       "Provide customer support and maintenance on finished projects",
@@ -49,16 +59,28 @@
       "Create tickets and maintain the company ticketing system",
       "Work with the owner to design and implement 3rd party web sites",
       "Database design and implementation",
-      "Create reports in ActveReports",
+      "Design reports in ActiveReports",
       "Create and schedule SQL DTS packages"
     ],
     "Accomplishments": [
-      "Created a tool for outputting a full functioning ASP,SQL Server website based on Html,XML templates",
+      "Created a tool for rapid development of full functioning ASP/SQL Server websites based on Html/XML templates",
       "Bonuses and gifts from company and 3rd party businesses for a job well done",
-      "Develop and maintain an administrative web site for Cascade Centers",
-      "Update the search engine and web site for a major music store ImportCds",
-      "Develop small web applications for Intel",
-      "Wrote and certified code for integrating with UPS shipping API"
+      "Develop and maintain administrative web site for Cascade Centers in ASP/ActiveX/SQL Server",
+      "Update the search engine and web site for major music store ImportCds in ASP/ActiveX/SQL Server",
+      "Develop small Flash applications for Intel Campaign initiative",
+      "Wrote and certified VB6 code for integrating with UPS shipping API",
+      "Development of the company ticketing system in ASP/ActiveX/SQL Server",
+      "Learn and update web apps based on PHP and MySQL technologies"
+    ],
+    "AccomplishmentLinks": [
+      "",
+      "",
+      "https://www.cascadecenters.com/",
+      "https://www.importcds.com/",
+      "",
+      "https://www.ups.com/us/en/services/technology-integration/online-tools-shipping.page",
+      "",
+      ""
     ]
   }
 ]

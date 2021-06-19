@@ -9,6 +9,7 @@ namespace Personal_Resume.Models
     {
         public int Id { get; set; }
         public string CompanyName { get; set; }
+        public string Link { get; set; }
         public string Logo { get; set; }
         public string JobTitle { get; set; }
         public string StartDate { get; set; }
@@ -17,5 +18,6 @@ namespace Personal_Resume.Models
         public string Vision { get; set; }
         public string[] JobDuties { get; set; }
         public string[] Accomplishments { get; set; }
+        public string[] AccomplishmentLinks { get; set; }
     }
 }

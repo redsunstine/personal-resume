@@ -2,6 +2,7 @@
   {
     "Id": 1,
     "CompanyName": "Amazon",
+    "Link": "",
     "Logo": "Amazon-logo.png",
     "JobTitle": "Seller",
     "StartDate": "October 2020",
@@ -12,18 +13,21 @@
       "Source items to sale in the marketplace",
       "Provide superb customer service",
       "Post new items",
-      "Pull, weigh, and ship items sold in a cost effective manner",
+      "Pull, weigh, and ship items in a cost effective manner",
       "Product research",
-      "Advertise store front",
       "Organize item storage and inventory"
     ],
     "Accomplishments": [
       "100+ items sold within the first few months of opening"
+    ],
+    "AccomplishmentLinks": [
+      ""
     ]
   },
   {
     "Id": 2,
     "CompanyName": "Ebay",
+    "Link": "https://www.ebay.com/str/deka81",
     "Logo": "Ebay-logo.png",
     "JobTitle": "Seller",
     "StartDate": "May 2016",
@@ -44,6 +48,11 @@
       "1,000+ items sold",
       "100 percent feedback rating at 400+ customer ratings",
       "Top Rated Seller since 2017"
+    ],
+    "AccomplishmentLinks": [
+      "",
+      "",
+      ""
     ]
   }
 ]
