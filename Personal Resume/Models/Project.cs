@@ -18,5 +18,7 @@ namespace Personal_Resume.Models
         public String GithubUrl { get; set; }
         public bool HasDownloadLink { get; set; }
         public String DownloadUrl { get; set; }
+        public bool HasButtonScript { get; set; }
+        public String ButtonScript { get; set; }
     }
 }

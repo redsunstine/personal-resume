@@ -1,13 +1,18 @@
-﻿import React, { Component } from 'react';
+﻿import React from 'react';
 import {
-    Row, Col, Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button
+    Col, Card, CardImg, CardText, CardBody,
+    CardTitle
 } from 'reactstrap';
 import './Project.css';
 
 function Project(props) {
 
     function getProjectLink(project) {
+        function handleClick() {
+            window[project.buttonScript].run();
+            //window.SiteUtils.Options.Zoo.toggle();
+        }
+
         if (project.hasWebLink) {
             return <a className="project-links" href={project.webUrl} target="_blank">
                 <i className="fas fa-external-link-alt fa-lg"></i>
@@ -18,6 +23,13 @@ function Project(props) {
                 <i className=" fas fa-download fa-lg"></i>
             </a>
         }
+        if (project.hasButtonScript) {
+            return (
+                <input value="Click Me" type="button" onClick={handleClick}>
+                </input>
+            );
+        }
+
     }
 
     function getGithubLink(project) {

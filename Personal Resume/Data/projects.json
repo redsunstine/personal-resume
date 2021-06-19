@@ -7,8 +7,24 @@
     "HasWebLink": true,
     "WebUrl": "https://personal-resume.azurewebsites.net/",
     "HasGithubLink": true,
-    "GithubUrl": "gkoutr/PersonalResume",
+    "GithubUrl": "redsunstine/personal-resume",
     "HasDownloadLink": false,
-    "DownloadUrl": ""
+    "DownloadUrl": "",
+    "HasButtonScript": false,
+    "ButtonScript": ""
+  },
+  {
+    "Id": 2,
+    "Title": "Flys & Nekos",
+    "Image": "test-project-logo.jpg",
+    "Description": "Fun script",
+    "HasWebLink": false,
+    "WebUrl": "",
+    "HasGithubLink": true,
+    "GithubUrl": "redsunstine/Scripts",
+    "HasDownloadLink": false,
+    "DownloadUrl": "",
+    "HasButtonScript": true,
+    "ButtonScript": "FlyNekos"
   }
 ]
