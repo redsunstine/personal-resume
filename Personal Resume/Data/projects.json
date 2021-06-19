@@ -2,9 +2,9 @@
   {
     "Id": 1,
     "Title": "Personal Porfolio",
-    "Image": "test-project-logo.jpg",
-    "Description": "A template to build your own personal portfolio website. Built in .NET Core and React.js",
-    "HasWebLink": true,
+    "Image": "portfolio.jpg",
+    "Description": "My personal portfolio website. Built in .NET Core and React.js",
+    "HasWebLink": false,
     "WebUrl": "https://personal-resume.azurewebsites.net/",
     "HasGithubLink": true,
     "GithubUrl": "redsunstine/personal-resume",
@@ -16,8 +16,8 @@
   {
     "Id": 2,
     "Title": "Flys & Nekos",
-    "Image": "test-project-logo.jpg",
-    "Description": "Fun script",
+    "Image": "flynek.jpg",
+    "Description": "Fun script. I cannot take credit for this script, i scraped it from a site many years ago.",
     "HasWebLink": false,
     "WebUrl": "",
     "HasGithubLink": true,
@@ -26,5 +26,20 @@
     "DownloadUrl": "",
     "HasButtonScript": true,
     "ButtonScript": "FlyNekos"
+  },
+
+  {
+    "Id": 3,
+    "Title": "Video Poker",
+    "Image": "vidpok.jpg",
+    "Description": "My First App in WebForms .NET 1.1",
+    "HasWebLink": true,
+    "WebUrl": "http://dennisdkaysjr.com/videopoker/VideoPoker.aspx",
+    "HasGithubLink": true,
+    "GithubUrl": "redsunstine/ASPVideoPoker",
+    "HasDownloadLink": false,
+    "DownloadUrl": "",
+    "HasButtonScript": false,
+    "ButtonScript": ""
   }
 ]

@@ -62,7 +62,7 @@ export class About extends Component {
                                 <i className="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
-                        <a style={{ color: "black" }} target="_blank" href="https://github.com/">
+                            <a style={{ color: "black" }} target="_blank" href="https://github.com/redsunstine">
                             <span className="fa-stack fa-lg">
                                 <i className="fas fa-circle fa-stack-2x"></i>
                                 <i className="fab fa-github fa-stack-1x fa-inverse"></i>
