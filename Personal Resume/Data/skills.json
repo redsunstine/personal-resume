@@ -1,17 +1,19 @@
 [
   {
     "Id": 1,
-    "Category": "Programming Languages",
+    "Category": "Languages",
     "SkillsList": [
       "C#",
       "HTML",
-      "CSS3",
+      "CSS",
       "ASP",
       "JavaScript",
       "VB",
       "SQL",
-      "JSON",
-      "XML"
+      "C/C++",
+      "ASM",
+      "XSLT",
+      "Batch Scripting"
     ]
   },
   {
@@ -19,12 +21,24 @@
     "category": "Tools",
     "skillsList": [
       "Visual Studio",
+      "Visual Studio Code",
       "SSMS",
       "Fiddler",
       "SOAPUI",
       "MS Office",
       "Jira",
-      "Jenkins"
+      "Confluence",
+      "Dia",
+      "Gimp",
+      "MSTSC",
+      "GotoMeeting",
+      "Spark IM Client",
+      "Notepad++",
+      "MMC",
+      "OpenSSL",
+      "WsFTP",
+      "Curl",
+      "Nuget"
     ]
   },
   {
@@ -32,7 +46,9 @@
     "category": "Source Control",
     "skillsList": [
       "GIT",
-      "SVN"
+      "SVN",
+      "GitHub",
+      "VSS"
     ]
   },
   {
@@ -40,7 +56,8 @@
     "category": "Database Management",
     "skillsList": [
       "SQL Server",
-      "MS Access"
+      "MS Access",
+      "MySQL"
     ]
   },
   {
@@ -48,8 +65,12 @@
     "category": "Frameworks",
     "skillsList": [
       ".NET",
-      "Unity",
-      "WCF"
+      "WCF",
+      "Angular",
+      "Entity Framework",
+      "ASP.NET",
+      "ActiveX",
+      "jQuery"
     ]
   },
   {
@@ -59,6 +80,73 @@
       "Windows",
       "Linux",
       "DOS"
+    ]
+  },
+  {
+    "Id": 7,
+    "category": "Engines",
+    "skillsList": [
+      "Unity"
+    ]
+  },
+  {
+    "Id": 8,
+    "category": "CI/CD",
+    "skillsList": [
+      "Jenkins",
+      "CruiseControl",
+      "Nant"
+    ]
+  },
+  {
+    "Id": 9,
+    "category": "Reporting",
+    "skillsList": [
+      "SSRS",
+      "ActiveReports",
+      "CrystalReports"
+    ]
+  },
+  {
+    "Id": 10,
+    "category": "Data Formats and Protocols",
+    "skillsList": [
+      "XML",
+      "JSON",
+      "ANSI X12",
+      "MIME",
+      "SOAP",
+      "HTTP/HTTPS"
+    ]
+  },
+  {
+    "Id": 11,
+    "category": "Concepts",
+    "skillsList": [
+      "SSL Certificate creation/configuration",
+      "IIS Configuration",
+      "Server Side/Client Side Coding",
+      "OOP",
+      "Algorithms",
+      "Data Structures",
+      "DTS/SSIS Jobs",
+      "Web/Windows Services",
+      "SQL Scripting",
+      "SDLC",
+      "Agile",
+      "Design Patterns",
+      "CI/CD",
+      "Cloud Computing",
+      "Nuget Packages"
+    ]
+  },
+  {
+    "Id": 12,
+    "category": "Libraries",
+    "skillsList": [
+      "XUnit",
+      "React",
+      "Newtonsoft"
     ]
   }
 
