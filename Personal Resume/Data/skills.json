@@ -137,7 +137,8 @@
       "Design Patterns",
       "CI/CD",
       "Cloud Computing",
-      "Nuget Packages"
+      "Nuget Packages",
+      "RESTful"
     ]
   },
   {
@@ -148,6 +149,17 @@
       "React",
       "Newtonsoft"
     ]
+  },
+  {
+    "Id": 13,
+    "category": "APIs",
+    "skillsList": [
+      "Chase PaymentTech",
+      "TransEngen/Zirmed/Waystar",
+      "Caqh Core EDI",
+      "UPS Shipping"
+    ]
   }
+
 
 ]
