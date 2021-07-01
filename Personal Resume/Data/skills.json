@@ -38,7 +38,9 @@
       "OpenSSL",
       "WsFTP",
       "Curl",
-      "Nuget"
+      "Nuget",
+      "KeyPass",
+      "CodeOnTime"    
     ]
   },
   {
@@ -48,7 +50,8 @@
       "GIT",
       "SVN",
       "GitHub",
-      "VSS"
+      "VSS",
+      "GitLab"
     ]
   },
   {
@@ -70,7 +73,9 @@
       "Entity Framework",
       "ASP.NET",
       "ActiveX",
-      "jQuery"
+      "jQuery",
+      "Winforms",
+      "WebForms"
     ]
   },
   {
@@ -109,21 +114,26 @@
   },
   {
     "Id": 10,
-    "category": "Data Formats and Protocols",
+    "category": "Data Structures and Protocols",
     "skillsList": [
       "XML",
       "JSON",
       "ANSI X12",
       "MIME",
       "SOAP",
-      "HTTP/HTTPS"
+      "HTTP/HTTPS",
+      "Lists",
+      "Dictionaries",
+      "FTP/FTPS",
+      "Arrays",
+      "Hash Tables"
     ]
   },
   {
     "Id": 11,
     "category": "Concepts",
     "skillsList": [
-      "SSL Certificate creation/configuration",
+      "SSL Client Certificate Creation/Configuration",
       "IIS Configuration",
       "Server Side/Client Side Coding",
       "OOP",
@@ -138,7 +148,9 @@
       "CI/CD",
       "Cloud Computing",
       "Nuget Packages",
-      "RESTful"
+      "RESTful",
+      "IoC",
+      "EDI"
     ]
   },
   {
@@ -147,7 +159,9 @@
     "skillsList": [
       "XUnit",
       "React",
-      "Newtonsoft"
+      "Newtonsoft",
+      "LINQ",
+      "OopFactory"
     ]
   },
   {
@@ -156,10 +170,46 @@
     "skillsList": [
       "Chase PaymentTech",
       "TransEngen/Zirmed/Waystar",
-      "Caqh Core EDI",
+      "Caqh Core",
       "UPS Shipping"
     ]
+  },
+  {
+    "Id": 14,
+    "category": "Maintenance and Support",
+    "skillsList": [
+      "Worked directly with tech teams from Kaiser, Blue Shield CA, Aetna, Transengen, Cambia, CMS, Optum, Availity, and Ability among others"
+    ]
+  },
+  {
+    "Id": 15,
+    "category": "Certifications Received",
+    "skillsList": [
+      "HIPAA",
+      "CAQH Core Phases I/II/III",
+      "UPS Shipping API"
+    ]
+  },
+  {
+    "Id": 16,
+    "category": "Trade Skills",
+    "skillsList": [
+      "1990-2002 jobs at various manufacturing facilities such as Hewlett Packard and Larsen Antennas developing skills in assembly/shipping/receiving",
+      "Soldering",
+      "Machine Operator",
+      "Materials Handler",
+      "Product Testing",
+      "Inventory"
+    ]
   }
-
+  ,
+  {
+    "Id": 17,
+    "category": "Self Taught Skills",
+    "skillsList": [
+      "Piano/Keyboard",
+      "Digital Music Development"
+    ]
+  }
 
 ]

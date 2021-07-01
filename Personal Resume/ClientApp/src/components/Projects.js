@@ -32,7 +32,7 @@ export class Projects extends Component {
             return (
                 <div>
                     <div>
-                        <h1 className="text-center">Projects</h1>
+                        <h1 className="text-center">Tech Projects</h1>
                         <hr></hr>
                         <Row>
                             {this.state.projects.map(project =>

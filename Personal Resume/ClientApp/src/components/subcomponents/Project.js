@@ -25,7 +25,7 @@ function Project(props) {
         }
         if (project.hasButtonScript) {
             return (
-                <input value="Click Me" type="button" onClick={handleClick}>
+                <input value="Click To Toggle" type="button" onClick={handleClick}>
                 </input>
             );
         }
